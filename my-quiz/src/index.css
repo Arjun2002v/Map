@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+ 
+    
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 5vh;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  
+}
+
+.nav-text{
+    text-decoration: none;
+    color: black;
+    font-family: Jost Regular;
+    font-size: 2.5vh;
+}
+
+.nav .active{
+    text-decoration: underline;
+   
+}
+.sidebar{
+    font-family: Jost Regular;
+    width: 40vw;
+    height: 80vh;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    color: whitesmoke;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+    background-color: black;
+
+}
+.nav-bar{
+    margin-top: 5vh;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: Jost Regular;
+    font-size: 5vh;
+    color: green;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.landing span{
+    color: black;
+}
+.landing button{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    font-family: Jost Regular;
+}
+
+.nav-links{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 3vh;
+   
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+   
+}
